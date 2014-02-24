@@ -336,12 +336,18 @@ a:hover {
     line-height: 40px;
     margin: 0 10px;
     overflow: hidden;
-    position: relative;
+    /*position: relative;*/
 }
 .post-list-info li {
     float: left;
     margin-right: 10px;
 }
+
+.post-list-info-right li{
+    float: right;
+    margin-left: 10px;
+}
+
 .post-list-info a {
     color: #1D7DA7;
 }

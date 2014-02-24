@@ -84,15 +84,15 @@
 
 	<div class="post-list-text"><?php echo cut_str(strip_tags(apply_filters('the_content',$post->post_content)),200); ?></div>
     <ul class="post-list-meta">
-        <li>地址：<?php echo get_post_meta(get_the_ID(), 'address', true); ?> </li>
-        <li>时间：<?php echo get_post_meta(get_the_ID(), 'start_time', true); ?> </li>
+        <li>开讲时间：<?php echo get_post_meta(get_the_ID(), 'start_time', true); ?> </li>
+        <li>开讲地址：<?php echo get_post_meta(get_the_ID(), 'address', true); ?> </li>
     </ul>
     <ul class="post-list-info">
 		<!-- <li><a href="<?php the_permalink(); ?>">阅读全文</a> | </li> -->
-		<li>分类：<?php the_category(' '); ?> | </li>
-		<li><span class="fr">发表于：<?php the_time('m月d日'); ?> | </span></li>
+		<li><span class="fr">发表于：<?php the_time('Y-m-d'); ?> | </span></li>
 		<li>浏览：<?php the_view(); ?> | </li>
-		<li><span class="pl_num"><?php comments_popup_link('0', '1 ', '% ', '', '评论已关闭'); ?></span>&nbsp;条评论</li>
+        <li>分类：<?php the_category(' '); ?> | </li>
+		<li><span class="pl_num">评论数：<?php comments_popup_link('0', '1 ', '% ', '', '评论已关闭'); ?></span></li>
 	</ul>
 </div>	
 <?php endif; ?>	
