@@ -84,7 +84,10 @@
 
 	<div class="post-list-text"><?php echo cut_str(strip_tags(apply_filters('the_content',$post->post_content)),200); ?></div>
     <ul class="post-list-meta">
-        <li>开讲时间：<?php echo get_post_meta(get_the_ID(), 'start_time', true); ?> </li>
+        <li>开讲时间：
+            <?php
+                echo get_post_meta(get_the_ID(), 'start_time', true).' - '.get_post_meta(get_the_ID(), 'end_time', true);
+            ?> </li>
         <li>开讲地址：<?php echo get_post_meta(get_the_ID(), 'address', true); ?> </li>
     </ul>
     <ul class="post-list-info">
