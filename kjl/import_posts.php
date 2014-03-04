@@ -15,6 +15,9 @@ echo date("Y-m-d H:i", $ld_ts), "\n";
 $str1 = "2009年10月21日 16:10";
 $str2 = "2009年10月22日 16:10";
 echo get_common_length($str1, $str2), "\n";
+echo get_end_time_show_string("2014/01/22 10:30", "2014/01/22 12:30"), "\n";
+echo get_end_time_show_string("2014/01/22 10:30", "2014/01/26 12:30"), "\n";
+echo get_end_time_show_string("2014/01/22 10:30", "2015/01/26 12:30"), "\n";
 
 echo parse_date_string("2009-10-21 16:10");
 exit;

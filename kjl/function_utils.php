@@ -26,11 +26,48 @@ function cal_last_day_timestamp($cur_ts) {
 
 function parse_date_string($date_str) {
     $time_stamp = strtotime($date_str);
-    $format = "Y年m月d日";
+    $format = "Y/m/d";
     if ($time_stamp % 3600 !== 0) {
         $format .= " H:i";
     }
     return date($format, $time_stamp);
+}
+
+function get_start_time_show_string($start_time_str) {
+    return parse_date_string($start_time_str);
+}
+
+/**
+ * @param $start_time_str string date string with format "2014-01-22 10:30"
+ * @param $end_time_str string date string with format "2014-01-23 11:30"
+ */
+function get_end_time_show_string($start_time_str, $end_time_str, $sec_separator='/') {
+    $start_terms = explode(' ', $start_time_str);
+    $end_terms = explode(' ', $end_time_str);
+    if (count($start_terms) == 2 && count($end_terms) == 2) {
+        if (strcmp($start_terms[0], $end_terms[0]) === 0) {
+            return $end_terms[1];
+        }
+        $start_terms = explode($sec_separator, $start_terms[0]);
+        $end_terms = explode($sec_separator, $end_terms[0]);
+        if (strcmp($start_terms[0], $end_terms[0]) === 0) {
+            return substr($end_time_str, 5);
+        } else {
+            return $end_time_str;
+        }
+    }
+    if (count($end_terms) == 1) {
+        if (strstr($end_time_str, ':') === false) { // should be like "2014-01-23"
+            if (strcmp(substr($start_time_str, 0, 4), substr($end_time_str, 0, 4)) === 0) {
+                return substr($end_time_str, 5);
+            }
+            else {
+                return $end_time_str;
+            }
+        } else {
+            return $end_time_str;
+        }
+    }
 }
 
 function get_common_length($str1, $str2) {
