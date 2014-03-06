@@ -13,5 +13,6 @@
  */
 define('WP_USE_THEMES', true);
 
+require( dirname(__FILE__) . '/kjl/function_utils.php' );
 /** Loads the WordPress Environment and Template */
 require( dirname( __FILE__ ) . '/wp-blog-header.php' );

@@ -86,7 +86,8 @@
     <ul class="post-list-meta">
         <li>开讲时间：
             <?php
-                echo get_post_meta(get_the_ID(), 'start_time', true).' - '.get_post_meta(get_the_ID(), 'end_time', true);
+                //echo get_post_meta(get_the_ID(), 'start_time', true).' - '.get_post_meta(get_the_ID(), 'end_time', true);
+            echo get_start_time_show_string().' - '.get_end_time_show_string();
             ?> </li>
         <li>开讲地址：<?php echo get_post_meta(get_the_ID(), 'address', true); ?> </li>
     </ul>

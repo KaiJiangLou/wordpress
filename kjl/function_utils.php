@@ -27,13 +27,15 @@ function cal_last_day_timestamp($cur_ts) {
 function parse_date_string($date_str) {
     $time_stamp = strtotime($date_str);
     $format = "Y/m/d";
-    if ($time_stamp % 3600 !== 0) {
+    $seconds_one_day = 3600 * 24;
+    if ($time_stamp % $seconds_one_day !== 0) {
         $format .= " H:i";
     }
     return date($format, $time_stamp);
 }
 
-function get_start_time_show_string($start_time_str) {
+function get_start_time_show_string() {
+    $start_time_str = get_post_meta(get_the_ID(), 'start_time', true);
     return parse_date_string($start_time_str);
 }
 
@@ -41,7 +43,9 @@ function get_start_time_show_string($start_time_str) {
  * @param $start_time_str string date string with format "2014-01-22 10:30"
  * @param $end_time_str string date string with format "2014-01-23 11:30"
  */
-function get_end_time_show_string($start_time_str, $end_time_str, $sec_separator='/') {
+function get_end_time_show_string($sec_separator='/') {
+    $start_time_str = parse_date_string(get_post_meta(get_the_ID(), 'start_time', true));
+    $end_time_str = parse_date_string(get_post_meta(get_the_ID(), 'end_time', true));
     $start_terms = explode(' ', $start_time_str);
     $end_terms = explode(' ', $end_time_str);
     if (count($start_terms) == 2 && count($end_terms) == 2) {

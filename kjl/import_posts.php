@@ -8,7 +8,10 @@
 require(dirname(__FILE__) . '/../wp-load.php');
 require_once(dirname(__FILE__). '/function_utils.php');
 
-$fd_ts = cal_first_day_timestamp(time());
+echo parse_date_string("2014-01-22 09:00"), "\n";
+echo parse_date_string("2014-01-22 00:00"), "\n";
+exit;
+/*$fd_ts = cal_first_day_timestamp(time());
 echo date("Y-m-d H:i", $fd_ts), "\n";
 $ld_ts = cal_last_day_timestamp(time());
 echo date("Y-m-d H:i", $ld_ts), "\n";
@@ -20,7 +23,7 @@ echo get_end_time_show_string("2014/01/22 10:30", "2014/01/26 12:30"), "\n";
 echo get_end_time_show_string("2014/01/22 10:30", "2015/01/26 12:30"), "\n";
 
 echo parse_date_string("2009-10-21 16:10");
-exit;
+exit; */
 
 $input_dir_name = "/Users/king/Documents/WhatIHaveDone/KaiJiangLou/csdn/output";
 if (!file_exists($input_dir_name) || !is_dir($input_dir_name)) {
