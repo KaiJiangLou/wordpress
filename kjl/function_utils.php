@@ -8,6 +8,10 @@
 
 //date_default_timezone_set('Asia/Shanghai');
 
+function should_show_post($page_type) {
+
+}
+
 function cal_first_day_timestamp($cur_ts) {
     $cur_ts += 3600 * 8; // for considering time zone
     $seconds_one_day = 3600 * 24;
@@ -25,7 +29,7 @@ function cal_last_day_timestamp($cur_ts) {
 }
 
 function parse_date_string($date_str) {
-    $time_stamp = strtotime($date_str);
+    $time_stamp = $date_str; //strtotime($date_str);
     $format = "Y/m/d";
     $seconds_one_day = 3600 * 24;
     if ($time_stamp % $seconds_one_day !== 0) {

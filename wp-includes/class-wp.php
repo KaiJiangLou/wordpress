@@ -538,7 +538,18 @@ class WP {
 	function query_posts() {
 		global $wp_the_query;
 		$this->build_query_string();
-		$wp_the_query->query($this->query_vars);
+        /*$this->query_vars = array_merge($this->query_vars, array(
+        'meta_query' => array(
+            array(
+                'key' => 'start_time',
+                'value' => ''.strtotime('2014-03-31'),
+                'type' => 'numeric',
+                'compare' => '>'
+            )
+        )
+    ));*/
+        //print_r($this->query_vars);
+        $wp_the_query->query($this->query_vars);
  	}
 
  	/**

@@ -256,7 +256,6 @@ function is_tag( $tag = '' ) {
 		_doing_it_wrong( __FUNCTION__, __( 'Conditional query tags do not work before the query is run. Before then, they always return false.' ), '3.1' );
 		return false;
 	}
-
 	return $wp_query->is_tag( $tag );
 }
 
@@ -1456,7 +1455,6 @@ class WP_Query {
 		} elseif ( ! isset( $this->query ) ) {
 			$this->query = $this->query_vars;
 		}
-
 		$this->query_vars = $this->fill_query_vars($this->query_vars);
 		$qv = &$this->query_vars;
 		$this->query_vars_changed = true;
@@ -3242,7 +3240,7 @@ class WP_Query {
 	 */
 	function query( $query ) {
 		$this->init();
-		$this->query = $this->query_vars = wp_parse_args( $query );
+        $this->query = $this->query_vars = wp_parse_args( $query );
 		return $this->get_posts();
 	}
 

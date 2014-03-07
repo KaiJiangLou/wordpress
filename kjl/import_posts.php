@@ -8,9 +8,6 @@
 require(dirname(__FILE__) . '/../wp-load.php');
 require_once(dirname(__FILE__). '/function_utils.php');
 
-echo parse_date_string("2014-01-22 09:00"), "\n";
-echo parse_date_string("2014-01-22 00:00"), "\n";
-exit;
 /*$fd_ts = cal_first_day_timestamp(time());
 echo date("Y-m-d H:i", $fd_ts), "\n";
 $ld_ts = cal_last_day_timestamp(time());
@@ -40,9 +37,3 @@ while($entry = $input_dir->read()) {
     import_one_post($content);
 }
 exit;
-
-
-$post_id = 20;
-
-
-
