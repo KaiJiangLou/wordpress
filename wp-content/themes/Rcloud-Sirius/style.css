@@ -78,6 +78,26 @@ a:hover {
     color: #D7594C;
     text-decoration: none;
 }
+
+div#baoming {
+    margin: 10px;
+    padding: 5px;
+    background: #05709F;
+    font-size: 130%;
+    width: 80px;
+    text-align: center;
+}
+
+a#baoming {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a#baoming:hover {
+    color: #D7594C;
+    text-decoration: none;
+}
+
 .post-list-info a:hover, .widget a:hover {
     color: #D7594C;
 }
@@ -1230,4 +1250,5 @@ body {
 .pl_num a {
   color: #FC0000;
 }
+
 }

@@ -27,6 +27,7 @@ function cal_first_day_timestamp($cur_ts) {
     if ($week_day == 0) {
         $week_day += 7;
     }
+    $cur_ts -= 3600 * 8; // for considering time zone
     return $cur_ts - ($week_day-1) * $seconds_one_day;
 }
 
@@ -37,6 +38,7 @@ function cal_last_day_timestamp($cur_ts) {
 
 function parse_date_string($date_str) {
     $time_stamp = $date_str; //strtotime($date_str);
+    $time_stamp += 3600 * 8;
     $format = "Y/m/d";
     $seconds_one_day = 3600 * 24;
     if ($time_stamp % $seconds_one_day !== 0) {

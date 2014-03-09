@@ -68,6 +68,9 @@ function kjl_main($query_vars, $extra_query_vars='') {
 
 function generate_history_args($first_day_the_week, $last_day_the_week) {
     $args = array(
+        'meta_key' => 'start_time',
+        'orderby' => 'meta_value_num',
+        'order' => 'DESC',
         'meta_query' => array(
             array(
                 'key' => 'start_time',
@@ -81,6 +84,9 @@ function generate_history_args($first_day_the_week, $last_day_the_week) {
 
 function generate_now_args($first_day_the_week, $last_day_the_week) {
     $args = array(
+        'meta_key' => 'start_time',
+        'orderby' => 'meta_value_num',
+        'order' => 'ASC',
         'meta_query' => array(
             'relation' => 'AND',
             array(
@@ -100,6 +106,9 @@ function generate_now_args($first_day_the_week, $last_day_the_week) {
 
 function generate_future_args($first_day_the_week, $last_day_the_week) {
     $args = array(
+        'meta_key' => 'start_time',
+        'orderby' => 'meta_value_num',
+        'order' => 'ASC',
         'meta_query' => array(
             array(
                 'key' => 'start_time',
