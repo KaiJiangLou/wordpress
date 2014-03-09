@@ -8,8 +8,15 @@
 
 //date_default_timezone_set('Asia/Shanghai');
 
-function should_show_post($page_type) {
-
+function get_all_post_metadata_by_name($meta_name) {
+    $args = array('posts_per_page' => -1);
+    $posts_list = get_posts($args);
+    $result = array();
+    foreach ($posts_list as $post) {
+        $key = get_post_meta($post->ID, $meta_name, true);
+        $result[$key] = 1;
+    }
+    return $result;
 }
 
 function cal_first_day_timestamp($cur_ts) {

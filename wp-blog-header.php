@@ -28,8 +28,6 @@ if ( !isset($wp_did_header) ) {
             $args = generate_future_args($first_day_the_week, $last_day_the_week);
         }
     }
-    //$time = strtotime('2014-03-31');
-    //$args = array('meta_key' => 'start_time', 'meta_value' => $time, 'meta_compare' => '>', 'post_type' => 'post');
     kjl_wp('', $args);
 
 

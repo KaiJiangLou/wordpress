@@ -101,5 +101,5 @@
 </div>	
 <?php endif; ?>	
 <?php $postnun++; endwhile; else: ?>
-	<h1 style="border:1px solid #ccc; border-radius: 3px; padding: 50px; font-size: 20px; color: #f00; text-align: center; background: #fff;">客官太深了~~~ 已经没有更多的文章可以显示了</h1>
+	<h1 style="border:1px solid #ccc; border-radius: 3px; padding: 50px; font-size: 20px; color: #f00; text-align: center; background: #fff;">没有更多的讲座喽!</h1>
 <?php endif; ?>

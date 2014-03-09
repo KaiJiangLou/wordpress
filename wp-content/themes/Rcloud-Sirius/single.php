@@ -6,10 +6,10 @@
 			<h1 class="single-title"><?php the_title(); ?></h1>
 			<!-- 文章信息 -->
 			<div class="single-info">
-				<span>作者：<?php the_author() ?></span>&nbsp;|&nbsp;
-				<span>时间：<?php the_time('Y-m-d') ?></span>&nbsp;|&nbsp;
+				<!--<span>作者：<?php the_author() ?></span>&nbsp;|&nbsp;
+                <span>时间：<?php echo get_start_time_show_string().' - '.get_end_time_show_string();?></span>&nbsp;|&nbsp; -->
 				<span>浏览：<?php the_view(); ?></span>&nbsp;|&nbsp;
-				<span><span class="pl_num"><?php comments_popup_link('0', '1 ', '% ', '', '评论已关闭'); ?></span> 条评论</span>
+				<span>评论：<span class="pl_num"><?php comments_popup_link('0', '1 ', '% ', '', '评论已关闭'); ?></span></span>
 				<?php if( current_user_can( 'manage_options' ) ) { ?>
 				<a href="<?php echo get_edit_post_link(); ?>" target="_blank">编辑文章</a>
 				<?php } ?>

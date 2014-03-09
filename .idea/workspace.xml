@@ -23,10 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="wp-blog-header.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-blog-header.php">
+      <file leaf-file-name="import_posts.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kjl/import_posts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="53" selection-start="1389" selection-end="1389" vertical-scroll-proportion="1.0301205" vertical-offset="117" max-vertical-offset="1740">
+            <state line="40" column="13" selection-start="1302" selection-end="1302" vertical-scroll-proportion="0.90712744" vertical-offset="180" max-vertical-offset="735">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete_all_posts.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kjl/delete_all_posts.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="4" selection-start="136" selection-end="136" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="405">
               <folding />
             </state>
           </provider>
@@ -35,55 +44,28 @@
       <file leaf-file-name="function_utils.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kjl/function_utils.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="37" selection-start="212" selection-end="212" vertical-scroll-proportion="-3.125" vertical-offset="60" max-vertical-offset="1815">
+            <state line="105" column="9" selection-start="3219" selection-end="3219" vertical-scroll-proportion="-4.5416665" vertical-offset="1391" max-vertical-offset="1920">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wp-load.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-load.php">
+      <file leaf-file-name="insert_post.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kjl/insert_post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="40" selection-start="1396" selection-end="1396" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="1020">
+            <state line="17" column="31" selection-start="350" selection-end="350" vertical-scroll-proportion="-7.0416665" vertical-offset="86" max-vertical-offset="585">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="load.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-includes/load.php">
+      <file leaf-file-name="sidebar.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/Rcloud-Sirius/sidebar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11865">
+            <state line="4" column="32" selection-start="111" selection-end="111" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="300">
               <folding>
-                <marker date="1379327410000" expanded="true" signature="5461:5766" placeholder="..." />
-                <marker date="1379327410000" expanded="true" signature="5512:5640" placeholder="..." />
-                <marker date="1379327410000" expanded="true" signature="5648:5757" placeholder="..." />
+                <marker date="1394251451000" expanded="true" signature="296:312" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-includes/functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="805" column="0" selection-start="24036" selection-end="24036" vertical-scroll-proportion="0.0" vertical-offset="12075" max-vertical-offset="62985">
-              <folding>
-                <marker date="1390984961000" expanded="true" signature="14932:15038" placeholder="SELECT meta_..$wpdb-&gt;postmeta WHERE..." />
-                <marker date="1390984961000" expanded="true" signature="15668:15774" placeholder="SELECT post_..$wpdb-&gt;postmeta WHERE..." />
-                <marker date="1390984961000" expanded="true" signature="32688:32757" placeholder="SELECT optio..$wpdb-&gt;options WHERE..." />
-                <marker date="1390984961000" expanded="true" signature="104738:104784" placeholder="SELECT id FR..$wpdb-&gt;site ORDER..." />
-                <marker date="1390984961000" expanded="true" signature="112372:112468" placeholder="SELECT post_..$wpdb-&gt;postmeta WHERE..." />
-                <marker date="1390984961000" expanded="true" signature="112931:113033" placeholder="SELECT comme..$wpdb-&gt;commentmeta WHERE..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wp-settings.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-settings.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="250" column="22" selection-start="8006" selection-end="8006" vertical-scroll-proportion="0.0" vertical-offset="3750" max-vertical-offset="5610">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -91,7 +73,7 @@
       <file leaf-file-name="query.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-includes/query.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="722" column="25" selection-start="16954" selection-end="16954" vertical-scroll-proportion="-3.06" vertical-offset="10527" max-vertical-offset="59505">
+            <state line="3061" column="24" selection-start="83705" selection-end="83705" vertical-scroll-proportion="-3.12" vertical-offset="45609" max-vertical-offset="59505">
               <folding>
                 <marker date="1394092329000" expanded="true" signature="74305:74404" placeholder="SELECT $dist..." />
                 <marker date="1394092329000" expanded="true" signature="77322:77425" placeholder="SELECT $foun..." />
@@ -106,7 +88,56 @@
       <file leaf-file-name="class-wp.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-includes/class-wp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="550" column="9" selection-start="17915" selection-end="17915" vertical-scroll-proportion="-6.3" vertical-offset="7935" max-vertical-offset="10890">
+            <state line="492" column="15" selection-start="16280" selection-end="16280" vertical-scroll-proportion="-4.4583335" vertical-offset="7273" max-vertical-offset="10725">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-includes/post.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="432" column="11" selection-start="14986" selection-end="14986" vertical-scroll-proportion="-6.0" vertical-offset="6246" max-vertical-offset="76140">
+              <folding>
+                <marker date="1386196690000" expanded="true" signature="17598:17646" placeholder="SELECT * FRO..$wpdb-&gt;posts WHERE..." />
+                <marker date="1386196690000" expanded="true" signature="70207:70291" placeholder="SELECT post_..." />
+                <marker date="1386196690000" expanded="true" signature="72133:72284" placeholder="SELECT post_..$wpdb-&gt;posts WHERE..." />
+                <marker date="1386196690000" expanded="true" signature="72453:72550" placeholder="SELECT COUNT..$wpdb-&gt;posts WHERE..." />
+                <marker date="1386196690000" expanded="true" signature="77690:77730" placeholder="SELECT * FRO..$wpdb-&gt;posts WHERE..." />
+                <marker date="1386196690000" expanded="true" signature="78577:78645" placeholder="SELECT * FRO..$wpdb-&gt;posts WHERE..." />
+                <marker date="1386196690000" expanded="true" signature="78944:79021" placeholder="SELECT ID FR..$wpdb-&gt;posts WHERE..." />
+                <marker date="1386196690000" expanded="true" signature="79435:79500" placeholder="SELECT comme..$wpdb-&gt;comments WHERE..." />
+                <marker date="1386196690000" expanded="true" signature="79650:79704" placeholder="SELECT meta_..$wpdb-&gt;postmeta WHERE..." />
+                <marker date="1386196690000" expanded="true" signature="83389:83472" placeholder="SELECT comme..$wpdb-&gt;comments WHERE..." />
+                <marker date="1386196690000" expanded="true" signature="97403:97444" placeholder="SELECT ID FR..$wpdb-&gt;posts WHERE..." />
+                <marker date="1386196690000" expanded="true" signature="104669:104745" placeholder="SELECT post_..$wpdb-&gt;posts WHERE..." />
+                <marker date="1386196690000" expanded="true" signature="106462:106557" placeholder="SELECT post_..$wpdb-&gt;posts WHERE..." />
+                <marker date="1386196690000" expanded="true" signature="112888:112933" placeholder="SELECT pinge..$wpdb-&gt;posts WHERE..." />
+                <marker date="1386196690000" expanded="true" signature="114068:114113" placeholder="SELECT pinge..$wpdb-&gt;posts WHERE..." />
+                <marker date="1386196690000" expanded="true" signature="114475:114521" placeholder="SELECT to_pi..$wpdb-&gt;posts WHERE..." />
+                <marker date="1386196690000" expanded="true" signature="115766:115818" placeholder="SELECT ID FR..$wpdb-&gt;posts WHERE..." />
+                <marker date="1386196690000" expanded="true" signature="117274:117431" placeholder="SELECT ID, p..$wpdb-&gt;posts WHERE..." />
+                <marker date="1386196690000" expanded="true" signature="118619:118686" placeholder="SELECT ID FR..$wpdb-&gt;posts WHERE..." />
+                <marker date="1386196690000" expanded="true" signature="128631:128695" placeholder="SELECT * FRO..." />
+                <marker date="1386196690000" expanded="true" signature="135710:135751" placeholder="SELECT ID FR..$wpdb-&gt;posts WHERE..." />
+                <marker date="1386196690000" expanded="true" signature="137855:137895" placeholder="SELECT * FRO..$wpdb-&gt;posts WHERE..." />
+                <marker date="1386196690000" expanded="true" signature="139021:139086" placeholder="SELECT comme..$wpdb-&gt;comments WHERE..." />
+                <marker date="1386196690000" expanded="true" signature="139237:139291" placeholder="SELECT meta_..$wpdb-&gt;postmeta WHERE..." />
+                <marker date="1386196690000" expanded="true" signature="139741:139860" placeholder="SELECT meta_..$wpdb-&gt;postmeta WHERE..." />
+                <marker date="1386196690000" expanded="true" signature="154489:154634" placeholder="SELECT post_..$wpdb-&gt;posts WHERE..." />
+                <marker date="1386196690000" expanded="true" signature="154693:154834" placeholder="SELECT post_..$wpdb-&gt;posts WHERE..." />
+                <marker date="1386196690000" expanded="true" signature="154895:155089" placeholder="SELECT DATE_..$wpdb-&gt;posts WHERE..." />
+                <marker date="1386196690000" expanded="true" signature="165167:165277" placeholder="SELECT ID FR..$wpdb-&gt;posts WHERE..." />
+                <marker date="1386196690000" expanded="true" signature="166622:166678" placeholder="SELECT $wpdb..$wpdb-&gt;posts WHERE..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post_list.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/Rcloud-Sirius/template/post_list.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="91" column="28" selection-start="3516" selection-end="3516" vertical-scroll-proportion="-15.875" vertical-offset="984" max-vertical-offset="1650">
               <folding />
             </state>
           </provider>
@@ -132,26 +163,29 @@
         <option value="$PROJECT_DIR$/kjl/delete_all_posts.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/Rcloud-Sirius/index.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/Rcloud-Sirius/template/post_list.php" />
         <option value="$PROJECT_DIR$/now/index.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/Rcloud-Sirius/sidebar.php" />
         <option value="$PROJECT_DIR$/wp-includes/template-loader.php" />
         <option value="$PROJECT_DIR$/wp-includes/template.php" />
         <option value="$PROJECT_DIR$/wp-includes/query.php" />
         <option value="$PROJECT_DIR$/../../KaiJiangLou/csdn/output/_meeting_info_681_biz" />
-        <option value="$PROJECT_DIR$/kjl/import_posts.php" />
-        <option value="$PROJECT_DIR$/kjl/function_utils.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Rcloud-Sirius/template/post_list.php" />
         <option value="$PROJECT_DIR$/wp-includes/class-wp.php" />
         <option value="$PROJECT_DIR$/wp-blog-header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Rcloud-Sirius/page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Rcloud-Sirius/sidebar.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Rcloud-Sirius/single.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Rcloud-Sirius/test.html" />
+        <option value="$PROJECT_DIR$/kjl/function_utils.php" />
+        <option value="$PROJECT_DIR$/kjl/import_posts.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="MAMP_php5_4_19" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
+    <option name="x" value="19" />
     <option name="y" value="22" />
-    <option name="width" value="1436" />
-    <option name="height" value="878" />
+    <option name="width" value="1220" />
+    <option name="height" value="866" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -221,20 +255,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="now" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wordpress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wordpress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="kjl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -255,6 +275,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -263,7 +284,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.index.php">
+  <component name="RunManager" selected="PHP Script.import_posts.php">
     <configuration default="false" name="insert_post.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/kjl/insert_post.php">
       <RunnerSettings RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
@@ -282,6 +303,11 @@
       <method />
     </configuration>
     <configuration default="false" name="delete_all_posts.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/kjl/delete_all_posts.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="page.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/wp-content/themes/Rcloud-Sirius/page.php">
       <RunnerSettings RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <method />
@@ -343,19 +369,21 @@
       <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
       <method />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="PHP Script.index.php" />
       <item index="1" class="java.lang.String" itemvalue="PHP Script.insert_post.php" />
       <item index="2" class="java.lang.String" itemvalue="PHP Script.index.php (1)" />
       <item index="3" class="java.lang.String" itemvalue="PHP Script.import_posts.php" />
       <item index="4" class="java.lang.String" itemvalue="PHP Script.delete_all_posts.php" />
+      <item index="5" class="java.lang.String" itemvalue="PHP Script.page.php" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="PHP Script.import_posts.php" />
-        <item index="1" class="java.lang.String" itemvalue="PHP Script.delete_all_posts.php" />
-        <item index="2" class="java.lang.String" itemvalue="PHP Script.index.php (1)" />
-        <item index="3" class="java.lang.String" itemvalue="PHP Script.insert_post.php" />
+        <item index="1" class="java.lang.String" itemvalue="PHP Script.page.php" />
+        <item index="2" class="java.lang.String" itemvalue="PHP Script.delete_all_posts.php" />
+        <item index="3" class="java.lang.String" itemvalue="PHP Script.index.php (1)" />
+        <item index="4" class="java.lang.String" itemvalue="PHP Script.insert_post.php" />
       </list>
     </recent_temporary>
   </component>
@@ -386,24 +414,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="22" width="1436" height="878" extended-state="6" />
+    <frame x="19" y="22" width="1220" height="866" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32816538" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25322813" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19368723" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25297114" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22920203" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994911" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30025446" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30490956" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996207" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -455,21 +483,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="9" selection-start="1661" selection-end="1661" vertical-scroll-proportion="0.34423897" vertical-offset="508" max-vertical-offset="16320" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Rcloud-Sirius/timthumb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="77" selection-start="500" selection-end="500" vertical-scroll-proportion="-10.6899" vertical-offset="7590" max-vertical-offset="18675" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/sectional.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="21" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="2655" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Rcloud-Sirius/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="936" column="21" selection-start="17918" selection-end="17922" vertical-scroll-proportion="-5.6153846" vertical-offset="13894" max-vertical-offset="18570" />
@@ -539,26 +552,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Rcloud-Sirius/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Rcloud-Sirius/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="1" selection-start="1997" selection-end="1997" vertical-scroll-proportion="-1.1258278" vertical-offset="1110" max-vertical-offset="8850" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="11" selection-start="2313" selection-end="2313" vertical-scroll-proportion="-9.458333" vertical-offset="1063" max-vertical-offset="36570">
+        <state line="40" column="1" selection-start="1997" selection-end="1997" vertical-scroll-proportion="-1.1258278" vertical-offset="1110" max-vertical-offset="8850">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Rcloud-Sirius/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="129" selection-end="129" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="225" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Rcloud-Sirius/archives.php">
@@ -566,26 +564,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Rcloud-Sirius/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Rcloud-Sirius/template/relevance.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Rcloud-Sirius/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="17" selection-start="537" selection-end="537" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="435" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/widgets.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="864" column="28" selection-start="27371" selection-end="27371" vertical-scroll-proportion="-0.4437086" vertical-offset="12981" max-vertical-offset="18795">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/template-loader.php">
@@ -595,7 +576,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="9" selection-start="4113" selection-end="4113" vertical-scroll-proportion="-6.7916665" vertical-offset="2222" max-vertical-offset="6690" />
+        <state line="164" column="9" selection-start="4113" selection-end="4113" vertical-scroll-proportion="-6.7916665" vertical-offset="2222" max-vertical-offset="6690">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-admin/includes/schema.php">
@@ -610,21 +593,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Rcloud-Sirius/template/post_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="14" selection-start="33" selection-end="33" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="1650" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="40" selection-start="460" selection-end="460" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="285" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1675" column="23" selection-start="57144" selection-end="57149" vertical-scroll-proportion="-6.875" vertical-offset="24870" max-vertical-offset="76140">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-admin/includes/nav-menu.php">
@@ -649,18 +620,13 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="474" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kjl/delete_all_posts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="30" selection-start="241" selection-end="241" vertical-scroll-proportion="0.5042017" vertical-offset="0" max-vertical-offset="476" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/load.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11865">
           <folding>
-            <marker date="1379327410000" expanded="true" signature="5461:5766" placeholder="..." />
-            <marker date="1379327410000" expanded="true" signature="5512:5640" placeholder="..." />
-            <marker date="1379327410000" expanded="true" signature="5648:5757" placeholder="..." />
+            <marker date="1379327410000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1379327410000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1379327410000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -691,23 +657,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="250" column="22" selection-start="8006" selection-end="8006" vertical-scroll-proportion="0.0" vertical-offset="3750" max-vertical-offset="5610">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="805" column="0" selection-start="24036" selection-end="24036" vertical-scroll-proportion="0.0" vertical-offset="12075" max-vertical-offset="62985">
           <folding>
-            <marker date="1390984961000" expanded="true" signature="14932:15038" placeholder="SELECT meta_..$wpdb-&gt;postmeta WHERE..." />
-            <marker date="1390984961000" expanded="true" signature="15668:15774" placeholder="SELECT post_..$wpdb-&gt;postmeta WHERE..." />
-            <marker date="1390984961000" expanded="true" signature="32688:32757" placeholder="SELECT optio..$wpdb-&gt;options WHERE..." />
-            <marker date="1390984961000" expanded="true" signature="104738:104784" placeholder="SELECT id FR..$wpdb-&gt;site ORDER..." />
-            <marker date="1390984961000" expanded="true" signature="112372:112468" placeholder="SELECT post_..$wpdb-&gt;postmeta WHERE..." />
-            <marker date="1390984961000" expanded="true" signature="112931:113033" placeholder="SELECT comme..$wpdb-&gt;commentmeta WHERE..." />
+            <marker date="1390984961000" expanded="true" signature="-1:-1" placeholder="SELECT meta_..$wpdb-&gt;postmeta WHERE..." />
+            <marker date="1390984961000" expanded="true" signature="-1:-1" placeholder="SELECT post_..$wpdb-&gt;postmeta WHERE..." />
+            <marker date="1390984961000" expanded="true" signature="-1:-1" placeholder="SELECT optio..$wpdb-&gt;options WHERE..." />
+            <marker date="1390984961000" expanded="true" signature="-1:-1" placeholder="SELECT id FR..$wpdb-&gt;site ORDER..." />
+            <marker date="1390984961000" expanded="true" signature="-1:-1" placeholder="SELECT post_..$wpdb-&gt;postmeta WHERE..." />
+            <marker date="1390984961000" expanded="true" signature="-1:-1" placeholder="SELECT comme..$wpdb-&gt;commentmeta WHERE..." />
           </folding>
         </state>
       </provider>
@@ -719,9 +678,182 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Rcloud-Sirius/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="17" selection-start="537" selection-end="537" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="250" column="23" selection-start="8007" selection-end="8007" vertical-scroll-proportion="-6.5833335" vertical-offset="3457" max-vertical-offset="5475">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-blog-header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="21" selection-start="1527" selection-end="1527" vertical-scroll-proportion="-9.791667" vertical-offset="530" max-vertical-offset="1710">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="13" selection-start="2228" selection-end="2228" vertical-scroll-proportion="-10.708333" vertical-offset="973" max-vertical-offset="36570">
+          <folding>
+            <marker date="1386415392000" expanded="true" signature="-1:-1" placeholder="SELECT YEAR(..." />
+            <marker date="1386415392000" expanded="true" signature="-1:-1" placeholder="SELECT YEAR(..." />
+            <marker date="1386415392000" expanded="true" signature="-1:-1" placeholder="SELECT YEAR(..." />
+            <marker date="1386415392000" expanded="true" signature="-1:-1" placeholder="SELECT DISTI..." />
+            <marker date="1386415392000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1386415392000" expanded="true" signature="-1:-1" placeholder="SELECT 1 as ..$wpdb-&gt;posts WHERE..." />
+            <marker date="1386415392000" expanded="true" signature="-1:-1" placeholder="SELECT MONTH..." />
+            <marker date="1386415392000" expanded="true" signature="-1:-1" placeholder="SELECT MONTH..." />
+            <marker date="1386415392000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386415392000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386415392000" expanded="true" signature="-1:-1" placeholder="SELECT DISTI..$wpdb-&gt;posts WHERE..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/widgets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="859" column="29" selection-start="27166" selection-end="27166" vertical-scroll-proportion="-5.0" vertical-offset="12435" max-vertical-offset="18645">
+          <folding>
+            <element signature="e#26880#27138#0" expanded="false" />
+            <element signature="e#26936#27138#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/post-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="9" selection-start="853" selection-end="853" vertical-scroll-proportion="-6.75" vertical-offset="348" max-vertical-offset="21660">
+          <folding>
+            <marker date="1382626760000" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..$wpdb-&gt;posts WHERE..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Rcloud-Sirius/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="32" selection-start="111" selection-end="111" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="300">
+          <folding>
+            <marker date="1394251451000" expanded="true" signature="296:312" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kjl/insert_post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="31" selection-start="350" selection-end="350" vertical-scroll-proportion="-7.0416665" vertical-offset="86" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Rcloud-Sirius/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="655" column="27" selection-start="28436" selection-end="28446" vertical-scroll-proportion="25.434782" vertical-offset="30" max-vertical-offset="43605">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#6;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#5;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#4;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#4;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#5;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#5;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#5;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#6;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#6;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#1;n#tr#7;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#td#1;n#tr#7;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#3;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#4;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#10;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#5;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#12;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#6;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#13;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#7;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#14;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#17;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#p#17;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#18;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#strong#0;n#span#0;n#p#18;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#2;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#fieldset#0;n#div#0;n#form#0;n#div#1;n#div#2;n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#1;n#form#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#1;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#form#1;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#form#1;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#2;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#form#2;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#form#2;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1394291461000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Rcloud-Sirius/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="34" selection-start="1003" selection-end="1003" vertical-scroll-proportion="-0.2" vertical-offset="450" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Rcloud-Sirius/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="66" selection-start="357" selection-end="357" vertical-scroll-proportion="0.3" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Rcloud-Sirius/template/post_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="28" selection-start="3516" selection-end="3516" vertical-scroll-proportion="-15.875" vertical-offset="984" max-vertical-offset="1650">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kjl/delete_all_posts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="4" selection-start="136" selection-end="136" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/query.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="722" column="25" selection-start="16954" selection-end="16954" vertical-scroll-proportion="-3.06" vertical-offset="10527" max-vertical-offset="59505">
+        <state line="3061" column="24" selection-start="83705" selection-end="83705" vertical-scroll-proportion="-3.12" vertical-offset="45609" max-vertical-offset="59505">
           <folding>
             <marker date="1394092329000" expanded="true" signature="74305:74404" placeholder="SELECT $dist..." />
             <marker date="1394092329000" expanded="true" signature="77322:77425" placeholder="SELECT $foun..." />
@@ -732,37 +864,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="432" column="11" selection-start="14986" selection-end="14986" vertical-scroll-proportion="-6.0" vertical-offset="6246" max-vertical-offset="76140">
+          <folding>
+            <marker date="1386196690000" expanded="true" signature="17598:17646" placeholder="SELECT * FRO..$wpdb-&gt;posts WHERE..." />
+            <marker date="1386196690000" expanded="true" signature="70207:70291" placeholder="SELECT post_..." />
+            <marker date="1386196690000" expanded="true" signature="72133:72284" placeholder="SELECT post_..$wpdb-&gt;posts WHERE..." />
+            <marker date="1386196690000" expanded="true" signature="72453:72550" placeholder="SELECT COUNT..$wpdb-&gt;posts WHERE..." />
+            <marker date="1386196690000" expanded="true" signature="77690:77730" placeholder="SELECT * FRO..$wpdb-&gt;posts WHERE..." />
+            <marker date="1386196690000" expanded="true" signature="78577:78645" placeholder="SELECT * FRO..$wpdb-&gt;posts WHERE..." />
+            <marker date="1386196690000" expanded="true" signature="78944:79021" placeholder="SELECT ID FR..$wpdb-&gt;posts WHERE..." />
+            <marker date="1386196690000" expanded="true" signature="79435:79500" placeholder="SELECT comme..$wpdb-&gt;comments WHERE..." />
+            <marker date="1386196690000" expanded="true" signature="79650:79704" placeholder="SELECT meta_..$wpdb-&gt;postmeta WHERE..." />
+            <marker date="1386196690000" expanded="true" signature="83389:83472" placeholder="SELECT comme..$wpdb-&gt;comments WHERE..." />
+            <marker date="1386196690000" expanded="true" signature="97403:97444" placeholder="SELECT ID FR..$wpdb-&gt;posts WHERE..." />
+            <marker date="1386196690000" expanded="true" signature="104669:104745" placeholder="SELECT post_..$wpdb-&gt;posts WHERE..." />
+            <marker date="1386196690000" expanded="true" signature="106462:106557" placeholder="SELECT post_..$wpdb-&gt;posts WHERE..." />
+            <marker date="1386196690000" expanded="true" signature="112888:112933" placeholder="SELECT pinge..$wpdb-&gt;posts WHERE..." />
+            <marker date="1386196690000" expanded="true" signature="114068:114113" placeholder="SELECT pinge..$wpdb-&gt;posts WHERE..." />
+            <marker date="1386196690000" expanded="true" signature="114475:114521" placeholder="SELECT to_pi..$wpdb-&gt;posts WHERE..." />
+            <marker date="1386196690000" expanded="true" signature="115766:115818" placeholder="SELECT ID FR..$wpdb-&gt;posts WHERE..." />
+            <marker date="1386196690000" expanded="true" signature="117274:117431" placeholder="SELECT ID, p..$wpdb-&gt;posts WHERE..." />
+            <marker date="1386196690000" expanded="true" signature="118619:118686" placeholder="SELECT ID FR..$wpdb-&gt;posts WHERE..." />
+            <marker date="1386196690000" expanded="true" signature="128631:128695" placeholder="SELECT * FRO..." />
+            <marker date="1386196690000" expanded="true" signature="135710:135751" placeholder="SELECT ID FR..$wpdb-&gt;posts WHERE..." />
+            <marker date="1386196690000" expanded="true" signature="137855:137895" placeholder="SELECT * FRO..$wpdb-&gt;posts WHERE..." />
+            <marker date="1386196690000" expanded="true" signature="139021:139086" placeholder="SELECT comme..$wpdb-&gt;comments WHERE..." />
+            <marker date="1386196690000" expanded="true" signature="139237:139291" placeholder="SELECT meta_..$wpdb-&gt;postmeta WHERE..." />
+            <marker date="1386196690000" expanded="true" signature="139741:139860" placeholder="SELECT meta_..$wpdb-&gt;postmeta WHERE..." />
+            <marker date="1386196690000" expanded="true" signature="154489:154634" placeholder="SELECT post_..$wpdb-&gt;posts WHERE..." />
+            <marker date="1386196690000" expanded="true" signature="154693:154834" placeholder="SELECT post_..$wpdb-&gt;posts WHERE..." />
+            <marker date="1386196690000" expanded="true" signature="154895:155089" placeholder="SELECT DATE_..$wpdb-&gt;posts WHERE..." />
+            <marker date="1386196690000" expanded="true" signature="165167:165277" placeholder="SELECT ID FR..$wpdb-&gt;posts WHERE..." />
+            <marker date="1386196690000" expanded="true" signature="166622:166678" placeholder="SELECT $wpdb..$wpdb-&gt;posts WHERE..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/includes/media.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="970" column="25" selection-start="29067" selection-end="29067" vertical-scroll-proportion="0.35185185" vertical-offset="14323" max-vertical-offset="40635">
+          <folding>
+            <marker date="1381217530000" expanded="true" signature="-1:-1" placeholder="SELECT count..$wpdb-&gt;posts WHERE..." />
+            <marker date="1381217530000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1381217530000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1381217530000" expanded="true" signature="-1:-1" placeholder="Insert into ..." />
+            <marker date="1381217530000" expanded="true" signature="-1:-1" placeholder="SELECT DISTI..." />
+            <marker date="1381217530000" expanded="true" signature="-1:-1" placeholder="Insert into ..." />
+            <marker date="1381217530000" expanded="true" signature="-1:-1" placeholder="Insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/class-wp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="550" column="9" selection-start="17915" selection-end="17915" vertical-scroll-proportion="-6.3" vertical-offset="7935" max-vertical-offset="10890">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kjl/import_posts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="683" selection-end="683" vertical-scroll-proportion="0.56842107" vertical-offset="30" max-vertical-offset="675">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kjl/insert_post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="32" selection-start="351" selection-end="351" vertical-scroll-proportion="0.35578948" vertical-offset="86" max-vertical-offset="585">
+        <state line="492" column="15" selection-start="16280" selection-end="16280" vertical-scroll-proportion="-4.4583335" vertical-offset="7273" max-vertical-offset="10725">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kjl/function_utils.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="37" selection-start="212" selection-end="212" vertical-scroll-proportion="-3.125" vertical-offset="60" max-vertical-offset="1815">
+        <state line="105" column="9" selection-start="3219" selection-end="3219" vertical-scroll-proportion="-4.5416665" vertical-offset="1391" max-vertical-offset="1920">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-blog-header.php">
+    <entry file="file://$PROJECT_DIR$/kjl/import_posts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="53" selection-start="1389" selection-end="1389" vertical-scroll-proportion="1.0301205" vertical-offset="117" max-vertical-offset="1740">
+        <state line="40" column="13" selection-start="1302" selection-end="1302" vertical-scroll-proportion="0.90712744" vertical-offset="180" max-vertical-offset="735">
           <folding />
         </state>
       </provider>

@@ -22,6 +22,7 @@ echo get_end_time_show_string("2014/01/22 10:30", "2015/01/26 12:30"), "\n";
 echo parse_date_string("2009-10-21 16:10");
 exit; */
 
+$already_existing_urls = get_all_post_metadata_by_name('url');
 $input_dir_name = "/Users/king/Documents/WhatIHaveDone/KaiJiangLou/csdn/output";
 if (!file_exists($input_dir_name) || !is_dir($input_dir_name)) {
     exit;
@@ -34,6 +35,9 @@ while($entry = $input_dir->read()) {
     $file_name = $input_dir_name.'/'.$entry;
     echo $file_name, "\n";
     $content = read_json_file($file_name);
+    if (isset($already_existing_urls[$content['url']])) {
+        continue;
+    }
     import_one_post($content);
 }
 exit;

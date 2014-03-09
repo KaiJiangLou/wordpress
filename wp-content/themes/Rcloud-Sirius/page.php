@@ -7,8 +7,9 @@
 			<!-- 文章信息 -->
 			<div class="single-info">
 				<span>作者：<?php the_author() ?></span>
-				<span>时间：<?php the_time('Y-m-d') ?></span>
-				<span>评论：<?php comments_popup_link('0条', '1 条', '% 条', '', '评论已关闭'); ?></span>
+				<!-- <span>时间：<?php the_time('Y-m-d') ?></span> -->
+                <span>时间：<?php echo get_start_time_show_string().' - '.get_end_time_show_string();?></span>
+                <span>评论：<?php comments_popup_link('0条', '1 条', '% 条', '', '评论已关闭'); ?></
 			</div>
 			<!-- 内容 -->
 			<div id="single-con">
