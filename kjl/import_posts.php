@@ -23,7 +23,7 @@ echo parse_date_string("2009-10-21 16:10");
 exit; */
 
 $already_existing_urls = get_all_post_metadata_by_name('url');
-$input_dir_name = "/Users/king/Documents/WhatIHaveDone/KaiJiangLou/csdn/output";
+$input_dir_name = "/Users/king/Documents/WhatIHaveDone/KaiJiangLou/all_posts";
 if (!file_exists($input_dir_name) || !is_dir($input_dir_name)) {
     exit;
 }

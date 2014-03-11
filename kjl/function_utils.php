@@ -115,7 +115,6 @@ function import_one_post($content) {
         'post_status' => 'publish',
         //'post_category' => array(3),
         'tags_input' => '测试, 自动',
-        #'tax_input' => array('address'=>'我的地址', 'start_time'=>'2014/02/29')
     );
 
     $post_id = wp_insert_post($my_post);

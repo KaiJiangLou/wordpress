@@ -93,7 +93,7 @@
     </ul>
     <ul class="post-list-info">
 		<!-- <li><a href="<?php the_permalink(); ?>">阅读全文</a> | </li> -->
-		<li><span class="fr">发表于：<?php the_time('Y-m-d'); ?> | </span></li>
+		<!-- <li><span class="fr">发表于：<?php the_time('Y-m-d'); ?> | </span></li> -->
 		<li>浏览：<?php the_view(); ?> | </li>
         <li>分类：<?php the_category(' '); ?> | </li>
 		<li><span class="pl_num">评论数：<?php comments_popup_link('0', '1 ', '% ', '', '评论已关闭'); ?></span></li>
