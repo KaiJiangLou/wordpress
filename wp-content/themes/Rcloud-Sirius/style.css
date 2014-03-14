@@ -99,6 +99,14 @@ a#baoming:hover {
     background: none repeat scroll 0 0 #FF8400;
 }
 
+a#baomingexpired {
+    margin: 10px;
+    padding: 5px;
+    background: #999999;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 .post-list-info a:hover, .widget a:hover {
     color: #D7594C;
 }

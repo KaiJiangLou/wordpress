@@ -19,6 +19,10 @@ function get_all_post_metadata_by_name($meta_name) {
     return $result;
 }
 
+function get_current_time() {
+    return time();
+}
+
 function cal_first_day_timestamp($cur_ts) {
     $cur_ts += 3600 * 8; // for considering time zone
     $seconds_one_day = 3600 * 24;
