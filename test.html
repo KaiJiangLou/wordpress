@@ -1,0 +1,911 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv='Expires' content='0'>
+    <meta http-equiv='Pragma'  content='no-cache'>
+    <meta http-equiv='Cache-Control'  content='no-cache'>
+    <meta property="wb:webmaster" content="259eceec9a4b28e5" />
+    <title>3W-这就是互联网的圈子</title>
+    <meta content="3W是一个关注职业通道的一个圈子,网址是www.3wcoffee.com" name="description">
+    <meta content="3W, 3W微信, 3W微博, 3W官网,3w招聘,互联网招聘, 移动互联网招聘,互联网圈子, 互联网活动, 互联网沙龙, 投资, 创业, IT, 商务社交, 职场, 人脉, 投资人, 猎头, VC, 移动互联网, O2O, LBS, 社交, 微信, 融资, 资本, 教育, 公开课, 电子商务, 职业生涯, 云计算, 游戏, 产品设计, 创业, 想创业, 投资, 融资, 创投媒体, 创业公司, 科技新闻, 移动互联网, 资讯平台, 开放日, 互联网创业" name="keywords">
+    <meta name="baidu-tc-verification" content="59ef734160041f779a53060a30f42803" />
+
+    <div class="web_root"  style="display:none"></div>
+    <script type="text/javascript">
+        var ctx = "";
+    </script><link rel="Shortcut Icon" href="/images/new/favicon.ico">
+    <script src="/js/jquery-1.8.2.js"type="text/javascript"></script>
+    <script src="/js/jquery.validate.js" type="text/javascript" ></script>
+    <script src="/js/jquery.form.js" type="text/javascript" ></script>
+    <script src="/js/form_validate.js" type="text/javascript" ></script>
+    <link rel="stylesheet" href="/css/core.css" type="text/css" />
+    <link rel="stylesheet" href="/css/thickbox.css" type="text/css" />
+    <script src="/js/jMonthCalendar.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/thickbox-compressed.js"></script>
+    <script type="text/javascript" src="/js/util.js"></script>
+    <script src="/js/scrolltopcontrol.js" type="text/javascript" ></script>
+    <!-- vee added -->
+    <link href="/css/stylesheet.css" rel="stylesheet" type="text/css" />
+    <script src="/js/main_new.js" type="text/javascript" ></script>
+    <!-- end vee added -->
+
+    <script type="text/javascript">
+        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F488b248a8585a984ec6306b3a068d622' type='text/javascript'%3E%3C/script%3E"));
+        /* var _gaq = _gaq || [];
+         _gaq.push(['_setAccount', 'UA-39380338-1']);
+         _gaq.push(['_trackPageview']);
+
+         (function() {
+         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+         })(); */
+
+    </script>
+
+    <script type="text/javascript">
+
+        $(function(){
+            //鎼存洟鍎寸�姘秴
+            var contentHeight=$("#pageBody").height()+100;
+            if($(window).height()>contentHeight){
+                $("#pageBody").css("minHeight",$(window).height()-130);
+            }
+
+            //妞ゅ爼鍎存稉瀣
+            $(".topBar li").live('mouseover',function(){
+                $(".topBar li a.topA").removeClass("hover");
+                $(".topBar li ul").hide();
+                $(this).children("a.topA").addClass("hover");
+                $(this).children("ul").css('width',$(this).width()-2).show();
+            }).live('mouseout',function(){
+                        $(this).children("a.topA").removeClass("hover");
+                        $(this).children("ul").hide();
+                    });
+            $(".topBar li ul").live('mouseout',function(){
+                $(this).siblings("a.topA").removeClass("hover");
+                $(this).hide();
+            });
+        });
+        function showMsgPanel(msg){
+            if(!msg){
+                msg="操作成功！";
+            }
+            jQuery.blockUI({ css: {  backgroundColor: '#0061a6', padding:'10px',   opacity: .8,   color: '#fff'  },
+                overlayCSS:  {  backgroundColor: 'none' },
+                message:msg
+            });
+            setTimeout(jQuery.unblockUI, 1000);
+            return;
+        }
+    </script><meta content="" name="description">
+    <meta content="【公开课】移动互联网——旅游行业的加速器" name="description">
+
+    <link href="/css/jquery-ui-1.9.2.custom.min.css" rel="stylesheet">
+    <script type="text/javascript" src="/js/jquery-ui.js" ></script>
+    <script src="/js/PlainText2RichText.js"></script>
+</head>
+
+<body onload="init();">
+<script type="text/javascript">
+    function fxCheck(){
+        tb_remove();
+        if($("#_checkfx").attr("checked")=='checked'){
+            window.open('http://v.t.sina.com.cn/share/share.php?title='+encodeURIComponent('我在3W发现了一个精彩的活动：【公开课】移动互联网——旅游行业的加速器，分享一下')+'&appkey=1773791621'+'&pic='+encodeURIComponent($('#_event_img').attr('src'))+'&url='+encodeURIComponent(location.href.split('?')[0])
+                    +'&source=3wcoffee','_blank','width=600,height=500');
+        }
+    }
+    $(function(){
+        //autocomplete
+        var availableTags = new Array();
+        var availableId = new Array();
+        var labelName = '';
+        var labelId = '';
+        var eventId = '0000000044678f710144d04682be1ed8';
+        $.ajax({
+            type : 'POST',
+            dataType : "json",
+            url : ctx+'/label/recommendLables.json',
+            success : function(result) {
+                var rlen = result.length;
+                for(var i=0; i<rlen; i++){
+                    availableTags.push(result[i].label);
+                    availableId.push(result[i].labelId);
+                    //$('.ui-autocomplete li').eq(i).children('a').attr('data-id',result[i].labelId);
+                }
+                $( "#autocomplete" ).autocomplete({
+                    source: availableTags
+                });
+
+            }
+        });
+
+        $('#tagSave').click(function(){
+            labelName = $('.tagField').val().trim();
+            if(labelName == ''){
+                $('.errorTag').removeClass('dn');
+            }else{
+                var isExist = $.inArray(labelName, availableTags);
+                if(isExist == -1){
+                    labelId = '';
+                }else{
+                    labelId = availableId[isExist];
+                }
+                saveTag(eventId,labelId,labelName);
+            }
+        });
+
+
+        $('#container .tags span').live("click",function(){
+            var tagLength = $('.tags li').length;
+            if(tagLength == 5){
+                $('.prompt').addClass('dn');
+                $('#container .tags span').addClass('dn');
+                $('#container .edit').removeClass('dn');
+            }
+            $(this).parents('li').remove();
+            var eventId = '0000000044678f710144d04682be1ed8';
+            var labelId = $(this).parent('li').attr('id');
+            $.ajax({
+                type : 'POST',
+                url : ctx+"/label/delLabel",
+                data: "eventid=" + eventId + "&labelid=" + labelId,
+                success : function() {}
+            });
+        });
+        var btnText;
+        $('.checking').hover(function(){
+            btnText = $(this).text();
+            $(this).addClass('cancel').text('取消报名');
+        },function(){
+            $(this).removeClass('cancel').text(btnText);
+        });
+        $('.cancel').live('click', function() {
+            $("#unsignLink").click();
+        });
+    });
+</script>
+<div id="header">
+    <div class="wrapper">
+        <a href="/index.html" class="logo">3W</a>
+        <a href="http://nb.3wcoffee.com" class="nb" target="_blank">3W Next Big孵化器招募创业团队</a>
+        <!-- 未登录 -->
+        <ul class="nav">
+            <li><a href="/login.html">登录</a></li>
+            <li><a href="/register.html">注册</a></li>
+        </ul>
+    </div>
+</div>	<div id="container" class="clear">
+    <div class="content">
+        <div class="breadcrumb">
+            <a href="/index.html">首页</a> >
+            <a href="/event/e_1_0_0.html">近期将要开始的活动</a> >
+            <span>活动</span>
+        </div>
+        <div class="curr_tags clear">
+            <ul class="tags clear">
+            </ul>
+            <div class="edit">编辑</div>
+            <div class="dn add_tag clear">
+                <input type="text" class="br5 tagField" placeholder="请输入自定义标签" maxlength="10" id="autocomplete" />
+                <a href="javascript:void(0)" class="save" id="tagSave">保存</a>
+                <a href="javascript:void(0)" class="close link_b">关闭</a>
+            </div>
+            <div class="errorTag red dn">请输入标签</div>
+            <div class="sameTag red dn">请输入其它标签</div>
+            <div class="dn prompt">最多不能超过5个标签 <a href="javascript:void(0)" class="close link_b">关闭</a></div>
+        </div>
+        <div class="curr_event">
+            <img 																																															src="http://3wcoffee.com/3wcoffee_upload/poster/0000000044678f870144d502ac12003c.jpg"
+                                                                                                                                                                                                            width="200"
+                                                                                                                                                                                                            height="250"  id="_event_img" alt="" />
+            <div class="acti_info">
+                <h2>【公开课】移动互联网——旅游行业的加速器 </h2>
+                <p>
+                        <span>分享嘉宾： <span class="name">冯滨、王江、吴志祥</span>
+													</span> <br />
+                    地点：北京3W咖啡（北京海淀区海淀图书城南侧3W咖啡）<br />
+                    时间：
+                    04月01日 14:00 -  17:30 						<br />
+                    费用：<em>0</em>元/人<br />
+                    <!-- ，现场报名<em>0</em>元/人 -->
+                    限额：200人 <span class='greyfont'>（47 人已报名）</span>
+                </p>
+
+
+                <a id="signupBtn" class="sign br5">报名参加</a>
+
+            </div>
+        </div>
+        <div class="acti_detail">
+            <h2>活动详情</h2>
+            <br />
+            一个真正融合“旅游”和“互联网”的跨界平台<br />
+            一个发掘旅游业未来明星项目的超级赛事<br />
+            一个为创业者提供旅游全产业链扶持的孵化器<br />
+            一个撬动“旅游互联网”元年的创新支点<br />
+            旅游业资深大咖·投资圈明星机构·互联网行业巨头<br />
+            携手寻找旅游互联网创新创业项目<br />
+            共同探寻，旅游的未来</p>
+
+            <br />
+            <strong>时间</strong>：4月1日（周二） 14：00-17：30<br />
+            <strong>地点</strong>：北京3W咖啡（北京海淀区海淀图书城南侧3W咖啡）</p>
+
+            <br />
+            当越来越多的购买行为都发生在移动端，<br />
+            当越来越多互联网+旅游项目并购合作，<br />
+            对在线旅游意味着什么样的前景？<br />
+            对于互联网旅游创业者们又有什么启发？</p>
+
+            <br>众信“旅游的未来”第一期公开课即将开始，邀请行业最资深企业众信旅游(002707)CEO冯滨、被誉为航旅应用的航班管家CEO王江、刚获得腾讯5亿投资的同程网CEO吴志祥，以移动互联网为命题，展开讨论，并与参赛团队互动问答。</p>
+
+            <p> </p>
+
+            <p><strong>第一期公开课日程：</strong></p>
+
+            <br><strong>14:00 开场</strong><br />
+            <strong>14:20 传统旅游业的移动战略</strong><br />
+            演讲嘉宾：众信旅游CEO 冯滨<br />
+            <strong>14:40“小而美”的移动旅游产品</strong><br />
+            演讲嘉宾：航班管家CEO王江<br />
+            <strong>15:00 旅游O2O的痛点和机会</strong><br />
+            演讲嘉宾：同程网CEO吴志祥<br />
+            <strong>15:20 茶歇<br />
+                15:30 团队路演<br />
+                16:30 开放问答<br />
+                16:50 介绍众信新旅游孵化计</strong></p>
+
+            <p><strong>​</strong></p>
+
+            <br><strong>关于众信“旅游互联网”创新大赛</strong></p>
+
+            <br>由众信旅游、架桥投资、3W联合主办，联合腾讯、百度、京东、IDG、红杉资本、鼎晖创投、创新工场、艾瑞咨询等一众明星机构联手，榜中榜传媒特别支持，旨在提供一个真正融合“旅游”和“互联网”的跨界平台，发掘旅游业未来明星项目的超级赛事。</p>
+
+            <br>创新项目持续征集中，<strong><a href="http://www.huodongxing.com/event/1221293929600">请点击此处报名</a></strong>。</p>
+
+        </div>
+        <!-- ----------------------------------------------讨论区开始----------------------------------------------------------->
+
+        <dl class="opinion">
+            <dt>
+            <h2>话题</h2>
+            </dt>
+            <dd>
+                <input type="hidden" id="myId" value="" />
+                <div id="eventTopic"></div>
+
+                <div id="loginarea" class="promptBox">
+                    <img src="/images/new/icon_prompt.gif" alt="" /> <span> <a id="loginbtn"
+                                                                               onclick="showLoginDialog(success, null, true);" title="登录"
+                                                                               class="thickbox link_b">登录</a>
+						</span> 后才能参与话题
+                </div>
+            </dd>
+        </dl>
+        <!-- ----------------------------------------------讨论区结束--------------------------------------------------->
+
+    </div>
+    <div class="sidebar">
+        <dl class="opinion">
+            <dt>
+            <h2>已报名</h2>
+            <a href="javascript:listSignedUpUsers('0000000044678f710144d04682be1ed8')" id="searchMoreSignUp" class="more link_b dn">查看更多>></a>
+            </dt>
+            <dd>
+                <!-- 已报名好友 -->
+                <ul class="apply_list" id="suubox"></ul>
+                <!-- end -->
+                <!-- <div id="loading" class="loadingnobg dn"><img src="/images/loading.gif" />加载中......</div> -->
+
+            </dd>
+        </dl>
+        <dl class="opinion">
+            <dt>
+            <h2>最新职位</h2>
+            </dt>
+            <dd>
+                <!--拉勾招聘数据-->
+                <script type="text/javascript">
+                    function getLength(a){var d,b=a.length,c=0;for(d=0;b>d;d++)a.charCodeAt(d)<27||a.charCodeAt(d)>126?c+=2:c++;return c}function success_jsonpCallback(a){var b="",c="",d="";jQuery.each(a,function(a,e){6>a&&(c=e.positionName+"("+e.salary+") - "+e.companyName,d=getLength(c),d>42&&(c=c.substring(0,21)+"..."),b+='<li><a href="'+e.posiitonDetailUrl+'" target="_blank" class="title" title="'+e.positionName+'('+e.salary+') - '+e.companyName+'">'+c+"</a></li>")}),jQuery("#lagouData").html(b)}function getLagouData(){jQuery.ajax({async:!1,url:"http://lagou.com/jobs/listWoshipm?type=",type:"GET",dataType:"jsonp",jsonpCallback:"success_jsonpCallback",contentType:"application/jsonp; charset=utf-8",success:function(a){success_jsonpCallback(a)}})}getLagouData();
+                </script>
+                <ul id="lagouData"></ul>
+                <!--end-->
+            </dd>
+        </dl>
+        <div class="side_box br5 clear">
+            <h2>推荐3W的公共号</h2>
+            <div class="clear">
+                <img src="/images/new/qrcode_3w.jpg" width="150" height="150" alt="" />
+                <p>“3W互联网深度精选”，在这里读懂互联网。微信帐号：studywww，或扫描左侧二维码。</p>
+            </div>
+            <div class="clear">
+                <img src="/images/new/qrcode.jpg" width="150" height="150" alt="" />
+                <p>扫描左侧二维码或在微信中搜索 “IT_job”添加“IT工作机会”微信帐号，即时获取最有价值的求职招聘信息。</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="share">
+        <span>分享活动到：</span><a
+                href="javascript:(function(){window.open('http://v.t.sina.com.cn/share/share.php?
+title='+encodeURIComponent('我在3W发现了一个精彩的活动：【公开课】移动互联网——旅游行业的加速器，分享一下')+'&pic='+encodeURIComponent($('#_event_img').attr('src'))+'&url='+encodeURIComponent(location.href.split('?')[0])
++'&source=3wcoffee'+'&appkey=569452181','_blank','width=600,height=500');})()"><img
+                src="/images/icon_sina.gif" /></a>
+</div> -->
+
+<!-- 加好友公共模块 -->
+<script type="text/javascript">
+    <!--
+    $(function(){
+        $("#addFriendBtn").click(addFriend);
+    });
+
+    function add(friendId,point)
+    {
+        //未登录
+        if("".length == 0)
+        {
+            showLoginDialog(function(data){
+                if(data.success)
+                {
+                    closeLoginDialog();
+                    window.location.href=convertUrl(window.location.href,point);
+                }
+            },null,false);
+            return ;
+        }
+        $("#invitation").val("");
+        $("#addFriend_friendId").val(friendId);
+        $("#tempALink").click();
+    }
+    //-->
+</script>
+<a href="#TB_inline?testNull=null&width=350&height=220&inlineId=addFriendNav"  style="display:none;" id="tempALink"  title="加好友" class="thickbox">&nbsp;</a>
+<div id="addFriendNav" style="display:none;">
+    <div class="messageBoxPop">
+        <input type="hidden"  id="userId" value=''/>
+        <input type="hidden" id="addFriend_friendId" value=""/>
+        <textarea  id="invitation" cols="" rows="5"  placeholder="跟对方打个招呼呗～～随便说点什么..." maxlength="200"></textarea>
+        <input type="button" value="发 送" class="br5 btn_login" id="addFriendBtn" />
+    </div>
+</div>
+<script type="text/javascript" src="/js/friends/friends.js"></script>  <!-- 发私信公共模块 -->
+<a href="#TB_inline?testNull=null&height=250&width=425&inlineId=message"  id="addSendMessageNav"  style="display:none;" title="登录" class="thickbox">&nbsp;</a>
+<div id="message" style="display:none;">
+    <div class="messageBoxPop">
+        <input type="hidden" id="friendId" value=""/>
+        <table>
+            <tr>
+                <td width="50">发给：</td>
+                <td id="usertip">
+                    <input name="" id="username"  type="text" class="inputStyle br5" value="" disabled="disabled" />
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">内容：</td>
+                <td>
+                    <textarea id="content" cols="" rows="3" class="textareaCount" style="margin-bottom:5px;"></textarea>
+                    <div class="statementText">还可输入200个字</div>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" class="br5 btn_login" value="发 送" onclick="sendMessage();" /></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    /**
+     * point:活动id，作为锚点依据
+     */
+    function send(userId,username,point)
+    {
+        //是否登录
+        if("".length == 0)
+        {
+            showLoginDialog(function(data){
+                if(data.success)
+                {
+                    closeLoginDialog();
+                    window.location.href=convertUrl(window.location.href,point);
+                }
+            },null,false);
+            return ;
+        }
+        //非好友不能发私信
+        if(null == userId || userId.length==0)
+        {
+            jQuery.blockUI({ css: {
+                border: 'none',
+                padding: '15px',
+                backgroundColor: '#0061a6',
+                '-webkit-border-radius': '10px',
+                '-moz-border-radius': '10px',
+                opacity: .8,
+                color: '#fff'
+            },
+                overlayCSS:  {
+                    backgroundColor: 'none',
+                    opacity:         0.6,
+                    cursor:          'wait'
+                },
+                message:"非好友不能发私信..."
+            });
+
+            setTimeout(jQuery.unblockUI, 500);
+            return;
+        }
+        $("#content").val("");
+        $("#friendId").val(userId);
+        $("#username").val(username);
+        $("#addSendMessageNav").click();
+    }
+
+    function sendMessage() {
+        var textHtml=jQuery("#content").val();
+        if(textHtml.length==0){
+            jQuery.blockUI({ css: {
+                border: 'none',
+                padding: '15px',
+                backgroundColor: '#0061a6',
+                '-webkit-border-radius': '10px',
+                '-moz-border-radius': '10px',
+                opacity: .8,
+                color: '#fff'
+            },
+                overlayCSS:  {
+                    backgroundColor: 'none',
+                    opacity:         0.6,
+                    cursor:          'wait'
+                },
+                message:"写点东西吧，内容不能为空哦"
+            });
+
+            setTimeout(jQuery.unblockUI, 500);
+
+            return;
+        }
+        if(textHtml.length>200 ){
+            jQuery.blockUI({ css: {
+                border: 'none',
+                padding: '15px',
+                backgroundColor: '#0061a6',
+                '-webkit-border-radius': '10px',
+                '-moz-border-radius': '10px',
+                opacity: .8,
+                color: '#fff'
+            },
+                overlayCSS:  {
+                    backgroundColor: 'none',
+                    opacity:         0.6,
+                    cursor:          'wait'
+                },
+                message:"你输入的文本过长，请确认后再发送..."
+            });
+
+            setTimeout(jQuery.unblockUI, 500);
+
+            return;
+        }
+
+        var _friendId = document.getElementById("friendId").value;
+        var _content = document.getElementById("content").value;
+        jQuery.ajax({
+            type: "post",
+            dataType: "json",
+            url: "/message/sendMessage.json",
+            data: { friendId: _friendId, content: _content},
+            success: function(result) {
+                if(result.success) {
+                    tb_remove();
+                    jQuery.blockUI({ css: {
+                        border: 'none',
+                        padding: '15px',
+                        backgroundColor: '#0061a6',
+                        '-webkit-border-radius': '10px',
+                        '-moz-border-radius': '10px',
+                        opacity: .8,
+                        color: '#fff'
+                    },
+                        overlayCSS:  {
+                            backgroundColor: 'none',
+                            opacity:         0.6,
+                            cursor:          'wait'
+                        },
+                        message:"发送成功..."
+                    });
+                    setTimeout(jQuery.unblockUI, 1000);
+                    jQuery(".messageBox04").hide("fast");
+                }else {
+                    //登录超时
+                    if(result.msg == 20003) {
+                        tb_remove();
+                        jQuery.blockUI({ css: {  backgroundColor: '#0061a6',   padding: '15px',  opacity: .8,   color: '#fff'  },
+                            overlayCSS:  {  backgroundColor: 'none' },
+                            message:"登录超时，请重新&nbsp;&nbsp;<a style='color:#fff;font-size=12px; font-weight:bold;' onclick='openLoginDialog()'>登录&nbsp;</a>"
+                        });
+                        $('.blockOverlay').click($.unblockUI);
+                        return;
+                    }
+                    jQuery.blockUI({ css: {  backgroundColor: '#0061a6',   opacity: .8,   color: '#fff'  },
+                        overlayCSS:  {  backgroundColor: 'none' },
+                        message: result.msg
+                    });
+                    setTimeout(jQuery.unblockUI, 2000);
+                }
+                jQuery("#content").val("");
+            },
+            error: function(err) {
+                alert("操作失败");
+            },
+            complete: function() {
+            }
+        });
+    }
+</script>
+<!-- 鎮诞妗嗗叕鍏辨ā鍧�
+-->
+<script src="/js/jquery.blockUI.js"></script>
+<script src="/js/repeat.js"></script>
+<div class="popupBox"  style="display: none; position: absolute; z-index: 880;"  onmouseover="this.style.display='';" onmouseout="this.style.display='none';">
+
+    <div class="inner">
+        <div class="personalBox clear">
+            <div class="itemImg">
+                <a><img src="" width="50"
+                        height="50" /></a>
+            </div>
+            <div class="itemInfo">
+                <h4>
+                    <a>&nbsp;</a>
+                </h4>
+                <!-- <span><em>&nbsp;</em>
+                    22&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>&nbsp;</em> &nbsp;</span> -->
+            </div>
+        </div>
+        <div class="info">&nbsp;</div>
+        <div class="btn">
+            <a href="#">&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="btn_bbg">&nbsp;</a>
+        </div>
+    </div>
+    <div class="btm"></div>
+</div>
+<script type="text/javascript">
+
+    $(function(){
+        var t ;
+        $('.tipALink').live('mouseover',function()
+        {
+            var offset = null;
+            var	xx = null;
+            var  yy = null;
+            /* if($(this).parents("div.topic").size()!=0){
+             offset= $(this).offset();
+             xx = offset.left+60;
+             yy = offset.top-10;
+             }else{ */
+            offset = $(this).offset();
+            xx = offset.left+$(this).width()-5;
+            yy = offset.top-10;
+            /* } */
+            var uid=$(this).attr("uid");
+            //閿氱偣
+            var point =  $(this).attr("point");
+
+            t = setTimeout(function(){
+                jQuery.ajax({
+                    type : 'POST',
+                    dataType : "json",
+                    url : ctx+'/discuz/aboutUser.json',
+                    data:"userId=&friendId="+uid,
+                    success : function(data) {
+                        if(!data.success)
+                            return;
+                        var vo = data.content;
+                        var portrait =  vo.portrait;
+                        if(""== portrait || null == portrait) portrait = ctx+"/images/icon_man.png";
+                        var content = "<div class=\"inner\">"
+                                +"<div class=\"personalBox clear\">"
+                                +"<div class=\"itemImg\"><a href=\""+ctx+"/user/f_"+vo.userId+".html\"  target=\"_blank\"><img src=\""+portrait+"\" width=\"50\" height=\"50\" /></a></div>"
+                                +"<div class=\"itemInfo\">"
+                                +"<h4><a href=\""+ctx+"/user/f_"+vo.userId+".html\"  target=\"_blank\">"+vo.username+"</a></h4>"
+                                +(null==vo.company?"":vo.company)+"  "+(null== vo.workPosition?"":vo.workPosition)
+                            //+"<span><em><a href=\""+ctx+"/user/f_"+vo.userId+".html\"  target=\"_blank\">濂藉弸</a></em> "+vo.friendsCount+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em><a href=\""+ctx+"/user/f_"+vo.userId+".html\"  target=\"_blank\">娲诲姩</a></em> "+vo.eventsCount+"</span>     "
+                                +"</div>"
+                                +"</div>"
+                        //+"<div class=\"info\">"+(null==vo.summary?"":vo.summary)+"</div>";
+                        //鍒ゆ柇鏄惁宸茬櫥褰�
+                        if("".length==0)
+                        {
+                            content+="<div class=\"btn\"><a href=\"javascript:send('NULL','NULL','"+point+"')\">私信</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"javascript:add('NULL','"+point+"')\" class='btn_bbg'>加好友</a></div>";
+                        }else
+                        {
+                            if(vo.isFriend) 	 content+="<div class=\"btn\"><a href=\"javascript:send('"+vo.userId+"','"+vo.username+"')\">私信</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class='isfriend'>已是好友</a></div>";
+                            else if(vo.userId != "")  content+="<div class=\"btn\"><a href=\"javascript:send('')\">私信</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"javascript:add('"+vo.userId+"')\" class='btn_bbg'>加好友</a></div>";
+                        }
+                        content+="</div>";
+                        /* if(yy<$(".popupBox").height()){
+                         content= "<div class=btm></div>"+content+"<div class=popupTop></div> ";
+                         }else{
+                         content= "<div class=popupTop></div>"+content+"<div class=btm></div> ";
+                         } */
+                        $(".popupBox").html(content);
+                        /* if(yy<$(".popupBox").height()){
+                         $(".btm,.popupTop").addClass("bgTransform");
+                         yy+=$(".popupBox").height()+15;
+                         } */
+                        $(".popupBox").css('left',xx).css('top',yy).fadeIn(500);
+                    }
+                });
+            },500);
+        }).live('mouseout',function() {
+                    $(".popupBox").hide();
+                    clearTimeout(t);
+                });
+
+        /* function getMousePoint(e) {
+         var point = {
+         x:0,
+         y:0
+         };
+
+         if(typeof window.pageYOffset != 'undefined') {
+         point.x = window.pageXOffset;
+         point.y = window.pageYOffset;
+         }
+         else if(typeof document.compatMode != 'undefined' && document.compatMode != 'BackCompat') {
+         point.x = document.documentElement.scrollLeft;
+         point.y = document.documentElement.scrollTop;
+         }
+         else if(typeof document.body != 'undefined') {
+         point.x = document.body.scrollLeft;
+         point.y = document.body.scrollTop;
+         }
+
+         point.x += ev.clientX;
+         point.y += ev.clientY;
+
+         return point;
+         } */
+    });
+
+</script>
+<div id="loginNav" style="display:none;">
+
+    <a href="#TB_inline?tempNull=null&height=310&width=380&inlineId=loginNav" title="" class="thickbox" id="loginlink"></a>
+    <!-- <div class="loginTitle">用户登录</div> -->
+    <div class="loginBox">
+        <h2>用户登录</h2>
+        <form id="loginPageForm" action="/user/login.json" method="post">
+            <div class="mb20">
+                <label>邮　箱 </label><input type="text" name="email" value="" id="nameValid" placeholder="输入邮箱帐号" class="br5 inputStyle" tabindex="1" />
+                <label id="loginErrorMsg" class="error" style="display:none"></label>
+            </div>
+            <div class="mb20">
+                <label>密　码</label><input type="password" name="password" id="passwordValid" class="br5 inputStyle" placeholder="输入密码" value="" tabindex="2" />
+            </div>
+            <div class="mb20">
+                <input type="checkbox"  class="checkBox" value="" name="autoLogin" /> 记住我
+            </div>
+            <div class="mb20 clear">
+                <input type="submit" value="登　录" class="br3 btn_login"  />
+                <a href="/forgetpassword.html" class="forgot_psw">忘记密码？</a>
+            </div>
+            <div class="mb20 clear">
+                <a id="oauthlink" href="/ologin/auth/sina" class="weibo fl">使用微博登录</a>
+                <a href="/register.html" class="register">注册新帐号</a>
+            </div>
+        </form>
+        <script type="text/javascript" src="/js/login/login.js"></script>
+    </div></div>
+
+<div id="linkbox">
+    <dl>
+        <dt>合作媒体</dt>
+        <dd>
+            <ul class="linkconul">
+                <li><a href="http://iheima.com/" target="_blank">创业家杂志</a></li>
+                <li><a href="http://www.huxiu.com/" target="_blank">虎嗅网</a></li>
+                <li><a href="http://tech.sina.com.cn/" target="_blank">新浪科技</a></li>
+                <li><a href="http://it.sohu.com/" target="_blank">搜狐IT</a></li>
+                <li><a href="http://tech.163.com/" target="_blank">网易科技</a></li>
+                <li><a href="http://tech.qq.com/" target="_blank">腾讯科技</a></li>
+                <li><a href="http://www.techweb.com.cn/" target="_blank">Techweb</a></li>
+                <li><a href="http://www.donews.com/" target="_blank">Donews</a></li>
+                <li><a href="http://www.bianews.com/" target="_blank">Bianews</a></li>
+                <li><a href="http://www.36kr.com/" target="_blank">36氪</a></li>
+                <li><a href="http://www.iterduo.com/" target="_blank">IT耳朵</a></li>
+                <li><a href="http://www.tuicool.com/" target="_blank">推酷网</a></li>
+                <li><a href="http://www.ijiatv.com/" target="_blank">爱家TV</a></li>
+            </ul>
+        </dd>
+    </dl>
+    <dl>
+        <dt>合作伙伴</dt>
+        <dd>
+            <ul class="linkconul">
+                <li><a href="http://fangxinmei.com/" target="_blank">发型师推荐</a></li>
+                <li><a href="http://www.cogobuy.com/" target="_blank">科通芯城网</a></li>
+                <li><a href="http://developer.samsung.com/home.do" target="_blank">三星MSCC</a></li>
+                <li><a href="http://connect.qq.com/" target="_blank">QQ互联</a></li>
+                <li><a href="http://open.qq.com/" target="_blank">腾讯开放平台</a></li>
+                <li><a href="http://www.dell.com.cn/" target="_blank">戴尔电脑</a></li>
+                <li><a href="http://www.amap.com/" target="_blank">高德地图</a></li>
+                <li><a href="http://www.hwclouds.com/" target="_blank">华为云服务</a></li>
+                <li><a href="http://djt.qq.com/" target="_blank">腾讯大讲堂</a></li>
+                <li><a href="http://lieyunwang.com/" target="_blank">猎云网</a></li>
+                <li><a href="http://3wsalon.com/" target="_blank">websalon</a></li>
+                <li><a href="http://lanhan.cn/" target="_blank">懒汉互联</a></li>
+                <li><a href="http://www.zuitech.com/" target="_blank">最科技</a></li>
+                <li><a href="http://www.snsiu.com/" target="_blank">行晓网</a></li>
+                <li><a href="http://www.buzz.cn/" target="_blank">拔丝活动</a></li>
+                <li><a href="http://www.jz265.com/" target="_blank">建站中国</a></li>
+                <li><a href="http://www.360body.com/" target="_blank">博迪健康</a></li>
+            </ul>
+        </dd>
+    </dl>
+</div>
+<div id="footer">
+    <div class="wrapper">
+        <a href="/about.html">关于3W</a>
+        <em>|</em>
+        <a href="http://e.weibo.com/3wcoffee?ref=http%3A%2F%2Fweibo.com%2F1774026025%2Fmyfollow%3Fsearch%3D3W%25E5%2592%2596%25E5%2595%25A1" target="_blank">3W微博</a>
+        <em>|</em>
+        <a href="http://lagou.com" target="_blank">拉勾网（垂直于互联网行业的招聘网站）</a>
+        <span>京ICP备12015382号-1</span>
+    </div>
+</div>
+<a id='limitedLink' href='#TB_inline?test=null&height=150&width=320&inlineId=limited' title='出错' class='thickbox'></a>
+<div id="limited" style="display:none;">
+    <div class="registerPop">
+        <h4>未能报名</h4>
+        <div class="mb20">对不起，你是受限用户，不能报名。</div>
+        <div><input type="submit" value="确 定" class="btn_login br5 ml60" onclick="tb_remove()" /></div>
+    </div>
+</div>
+<a id='sucLink' href='#TB_inline?test=null&height=160&width=320&inlineId=applySuccess' title='' class='thickbox'></a>
+<div id="applySuccess" style="display:none;">
+    <div class="registerPop">
+        <h4>报名成功！</h4>
+        <div class="mb20">报名通过审核后，我们将发邮件通知你。</div>
+        <div>
+            <a class="btn_login fl br5" onclick="fxCheck();">确 定</a>
+            &nbsp;&nbsp;
+            <input type="checkbox" id="_checkfx" checked="checked" class="checked" style="border:0;"/>
+            分享到：<a href="javascript:(function(){window.open('http://v.t.sina.com.cn/share/share.php?
+	title='+encodeURIComponent('我在3W报名了：【公开课】移动互联网——旅游行业的加速器，分享一下')+'&appkey=1773791621'+'&pic='+encodeURIComponent($('#_event_img').attr('src'))+'&url='+encodeURIComponent(location.href.split('?')[0])
+	+'&source=3wcoffee','_blank','width=600,height=500');})()">
+            <img src="/images/icon_sina.gif" /></a>
+        </div>
+    </div>
+</div>
+
+<a id='unsignLink' href='#TB_inline?test=null&height=150&width=320&inlineId=unsign' title='' class='thickbox'></a>
+<div id="unsign" style="display:none;">
+    <div class="registerPop">
+        <h4>确定取消报名吗？</h4>
+        <div class="mb20">活动如此精彩，你确定要取消此次报名吗？</div>
+        <input type="button" value="确 定" class="btn_login br5 ml60" onclick="unsign()" />&nbsp;&nbsp;&nbsp;
+        <!-- <input type="button" value="取 消" class="btn01" onclick="tb_remove()" /> -->
+
+    </div>
+</div>
+</body>
+<script src="/js/json2.js" type="text/javascript"></script>
+<script src="/js/discuz.js" type="text/javascript"></script>
+<script src="/js/event/comming_detail.js" type="text/javascript"></script>
+<script src="/js/event/tags.js" type="text/javascript"></script>
+<script src="/js/jquery.blockUI.js"></script>
+<script type="text/javascript">
+    function init() {
+        listSignedUpUsers('0000000044678f710144d04682be1ed8','0');
+        //loadTopic('0000000044678f710144d04682be1ed8', '$session.getAttribute("USER_CONTEXT").userid');
+
+
+        loadTopic('0000000044678f710144d04682be1ed8');
+
+
+        var flag = "$request.getParameter('f')";
+        if(flag=="1") {
+            $("#sucLink").click();
+        } else if(flag=="2") {
+            $("#limitedLink").click();
+        }
+
+        $("#signupBtn").click(function() {
+            sign();
+        });
+
+        _txt = "";
+
+        $("span[name='audit']").mousemove(function() {
+            $(this).removeClass("btnUnS2");
+            $(this).addClass("btn2");
+            var link = $(this).children("a");
+            if(link.text() != "取消报名") {
+                _txt = link.text();
+            }
+            link.text("取消报名");
+            link.bind('click', function() {
+                $("#unsignLink").click();
+            });
+        });
+
+        $("span[name='audit']").mouseout(function() {
+            $(this).removeClass("btn2");
+            $(this).addClass("btnUnS2");
+            var link = $(this).children("a");
+            link.text(_txt);
+            link.unbind('click');
+        });
+
+        $("span[name='signed']").mousemove(function() {
+            $(this).removeClass("btnUn2");
+            $(this).addClass("btn2");
+            var link = $(this).children("a");
+            if(link.text() != "取消报名") {
+                _txt = link.text();
+            }
+            link.text("取消报名");
+            link.bind('click', function() {
+                $("#unsignLink").click();
+            });
+        });
+
+        $("span[name='signed']").mouseout(function() {
+            $(this).removeClass("btn2");
+            $(this).addClass("btnUn2");
+            var link = $(this).children("a");
+            link.text(_txt);
+            link.unbind('click');
+        });
+
+    }
+
+    var success = function() {
+        window.location.reload();
+    }
+
+    function sign() {
+        var eventId = "0000000044678f710144d04682be1ed8";
+        jQuery.ajax({
+            type: "post",
+            dataType : "json",
+            url: ctx+"/event/s_"+eventId+".json",
+            success: function(json){
+                if(json.msg == "20003") {
+                    $("#loginbtn").click();
+                } else {
+                    window.top.location=ctx+"/event/s_"+eventId+".html";
+                }
+            }
+        });
+    }
+
+    function unsign() {
+        var eventId = "0000000044678f710144d04682be1ed8";
+        jQuery.ajax({
+            type: "post",
+            dataType : "json",
+            url: ctx+"/event/us_"+eventId+".json",
+            success: function(json){
+                if(json.msg == "20003") {
+                    $("#loginbtn").click();
+                } else {
+                    window.top.location=ctx+"/event/d_"+eventId+".html";
+                }
+            }
+        });
+    }
+</script>
+</html>

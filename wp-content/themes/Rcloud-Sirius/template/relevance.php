@@ -2,7 +2,7 @@
 <div class="single-relevance part">
 	<h3 class="title">
 		<div class="fl">相关推荐</div>
-		<div class="fr"><?php include_once 'fenxiang.php'; ?></div>
+		<div class="fr"><?php //include_once 'fenxiang.php'; ?></div>
 		<div class="cc"></div>
 	</h3>
 	<div class="single-relevance-list">
